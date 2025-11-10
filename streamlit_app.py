@@ -333,6 +333,5 @@ st.markdown("---")
 st.markdown("""
     <div style='text-align: center; color: white; padding: 20px;'>
         <p>Made with ❤️ for curious learners everywhere</p>
-        <p>Part of the Abraham Accords Literacy Initiative</p>
     </div>
 """, unsafe_allow_html=True)
