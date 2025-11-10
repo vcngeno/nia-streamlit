@@ -47,6 +47,36 @@ st.markdown("""
         font-size: 1.2em;
         color: #666;
     }
+
+    
+    /* Tab styling for better visibility */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+        background-color: #f0f2f6;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .stTabs [data-baseweb="tab"] {
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-weight: 600;
+        color: #262730;
+        border: 2px solid #e0e0e0;
+    }
+    
+    .stTabs [data-baseweb="tab"]:hover {
+        background-color: #f8f9fa;
+        border-color: #667eea;
+    }
+    
+    .stTabs [aria-selected="true"] {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        color: white !important;
+        border-color: #667eea !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 
